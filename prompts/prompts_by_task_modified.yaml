@@ -1,0 +1,1630 @@
+legacy-datasets/banking77:
+    null:
+        instruction:
+            You are a helpful assistant. Below is a list of 77 categories for a user's banking inquiry, formatted as "category description", starting from category 0.
+            
+            0 activate_my_card
+            1 age_limit
+            2 apple_pay_or_google_pay 
+            3 atm_support
+            4 automatic_top_up
+            5 balance_not_updated_after_bank_transfer
+            6 balance_not_updated_after_cheque_or_cash_deposit
+            7 beneficiary_not_allowed
+            8 cancel_transfer
+            9 card_about_to_expire
+            10 card_acceptance
+            11 card_arrival
+            12 card_delivery_estimate
+            13 card_linking
+            14 card_not_working
+            15 card_payment_fee_charged
+            16 card_payment_not_recognised
+            17 card_payment_wrong_exchange_rate
+            18 card_swallowed
+            19 cash_withdrawal_charge
+            20 cash_withdrawal_not_recognised
+            21 change_pin
+            22 compromised_card
+            23 contactless_not_working
+            24 country_support
+            25 declined_card_payment
+            26 declined_cash_withdrawal
+            27 declined_transfer
+            28 direct_debit_payment_not_recognised
+            29 disposable_card_limits
+            30 edit_personal_details
+            31 exchange_charge
+            32 exchange_rate
+            33 exchange_via_app
+            34 extra_charge_on_statement
+            35 failed_transfer
+            36 fiat_currency_support
+            37 get_disposable_virtual_card
+            38 get_physical_card
+            39 getting_spare_card
+            40 getting_virtual_card
+            41 lost_or_stolen_card
+            42 lost_or_stolen_phone
+            43 order_physical_card
+            44 passcode_forgotten
+            45 pending_card_payment
+            46 pending_cash_withdrawal
+            47 pending_top_up
+            48 pending_transfer
+            49 pin_blocked
+            50 receiving_money
+            51 Refund_not_showing_up
+            52 request_refund
+            53 reverted_card_payment?
+            54 supported_cards_and_currencies
+            55 terminate_account
+            56 top_up_by_bank_transfer_charge
+            57 top_up_by_card_charge
+            58 top_up_by_cash_or_cheque
+            59 top_up_failed
+            60 top_up_limits
+            61 top_up_reverted
+            62 topping_up_by_card
+            63 transaction_charged_twice
+            64 transfer_fee_charged
+            65 transfer_into_account
+            66 transfer_not_received_by_recipient
+            67 transfer_timing
+            68 unable_to_verify_identity
+            69 verify_my_identity
+            70 verify_source_of_funds
+            71 verify_top_up
+            72 virtual_card_not_working
+            73 visa_or_mastercard
+            74 why_verify_identity
+            75 wrong_amount_of_cash_received
+            76 wrong_exchange_rate_for_cash_withdrawal
+  
+            Classify the given user inquiry into one of these categories.
+            Return only the corresponding category number (0-76), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+ade-benchmark-corpus/ade_corpus_v2:
+    Ade_corpus_v2_classification:
+        instruction:
+            You are a helpful assistant.
+            You are given a medical statement. Classify it as 1 if it is ADE-related, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short        
+LawInformedAI/overruling:
+    null:
+        instruction: 
+            You are a helpful assistant.
+            You are given a part of court statement. Classify it as 1 if it is a statement related to overruling, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input: sentence1
+        assistant_output: label
+        task_type: classification
+        answer_len: short    
+clinc/clinc_oos:
+    imbalanced:
+        instruction:
+            You are a helpful assistant. Below is a list of 151 categories for a user's inquiry, formatted as "category description", starting from category 0.
+            
+            0 restaurant_reviews
+            1 nutrition_info
+            2 account_blocked
+            3 oil_change_how
+            4 time
+            5 weather
+            6 redeem_rewards
+            7 interest_rate
+            8 gas_type
+            9 accept_reservations
+            10 smart_home
+            11 user_name
+            12 report_lost_card
+            13 repeat
+            14 whisper_mode
+            15 what_are_your_hobbies
+            16 order
+            17 jump_start
+            18 schedule_meeting
+            19 meeting_schedule
+            20 freeze_account
+            21 what_song
+            22 meaning_of_life
+            23 restaurant_reservation
+            24 traffic
+            25 make_call
+            26 text
+            27 bill_balance
+            28 improve_credit_score
+            29 change_language
+            30 no
+            31 measurement_conversion
+            32 timer
+            33 flip_coin
+            34 do_you_have_pets
+            35 balance
+            36 tell_joke
+            37 last_maintenance
+            38 exchange_rate
+            39 uber
+            40 car_rental
+            41 credit_limit
+            42 oos
+            43 shopping_list
+            44 expiration_date
+            45 routing
+            46 meal_suggestion
+            47 tire_change
+            48 todo_list
+            49 card_declined
+            50 rewards_balance
+            51 change_accent
+            52 vaccines
+            53 reminder_update
+            54 food_last
+            55 change_ai_name
+            56 bill_due
+            57 who_do_you_work_for
+            58 share_location
+            59 international_visa
+            60 calendar
+            61 translate
+            62 carry_on
+            63 book_flight
+            64 insurance_change
+            65 todo_list_update
+            66 timezone
+            67 cancel_reservation
+            68 transactions
+            69 credit_score
+            70 report_fraud
+            71 spending_history
+            72 directions
+            73 spelling
+            74 insurance
+            75 what_is_your_name
+            76 reminder
+            77 where_are_you_from
+            78 distance
+            79 payday
+            80 flight_status
+            81 find_phone
+            82 greeting
+            83 alarm
+            84 order_status
+            85 confirm_reservation
+            86 cook_time
+            87 damaged_card
+            88 reset_settings
+            89 pin_change
+            90 replacement_card_duration
+            91 new_card
+            92 roll_dice
+            93 income
+            94 taxes
+            95 date
+            96 who_made_you
+            97 pto_request
+            98 tire_pressure
+            99 how_old_are_you
+            100 rollover_401k
+            101 pto_request_status
+            102 how_busy
+            103 application_status
+            104 recipe
+            105 calendar_update
+            106 play_music
+            107 yes
+            108 direct_deposit
+            109 credit_limit_change
+            110 gas
+            111 pay_bill
+            112 ingredients_list
+            113 lost_luggage
+            114 goodbye
+            115 what_can_i_ask_you
+            116 book_hotel
+            117 are_you_a_bot
+            118 next_song
+            119 change_speed
+            120 plug_type
+            121 maybe
+            122 w2
+            123 oil_change_when
+            124 thank_you
+            125 shopping_list_update
+            126 pto_balance
+            127 order_checks
+            128 travel_alert
+            129 fun_fact
+            130 sync_device
+            131 schedule_maintenance
+            132 apr
+            133 transfer
+            134 ingredient_substitution
+            135 calories
+            136 current_location
+            137 international_fees
+            138 calculator
+            139 definition
+            140 next_holiday
+            141 update_playlist
+            142 mpg
+            143 min_payment
+            144 change_user_name
+            145 restaurant_suggestion
+            146 travel_notification
+            147 cancel
+            148 pto_used
+            149 travel_suggestion
+            150 change_volume
+
+            Classify the given user inquiry into one of these categories.
+            Return only the corresponding category number (0-150), without explanations.
+        user_input: text
+        assistant_output: intent
+        task_type: classification
+        answer_len: short        
+data/object_counting.json:
+    object_counting:
+        instruction:
+            You are a helpful assistant. Analyze the following sentence and count the number of objects specified.
+            Return only digits in your answer, without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: long        
+openai/gsm8k:
+    main:
+        instruction:
+            You are a helpful assistant specializing in solving mathematical word problems.
+            Return your final answer after '####' only in digits, without explanations.
+        user_input: question
+        assistant_output: answer
+        task_type: chain_of_thought
+        answer_len: long
+bleugreen/typescript-chunks:
+    null:
+        instruction:
+            You are a helpful assistant. Below is a list of TypeScript function types.
+            FunctionDeclaration, ArrowFunction, ClassDeclaration, InterfaceDeclaration, EnumDeclaration, TypeAliasDeclaration, or MethodDeclaration.
+            Categorize the following TypeScript code chunk into one of these categories.
+            Return only the category name, without explanations.
+        user_input: content
+        assistant_output: type
+        task_type: classification
+        answer_len: short
+zeroshot/twitter-financial-news-sentiment:
+    null:
+        instruction:
+            You are a helpful assistant.
+            Below is a list of categories for a user tweet, formatted as "category description", starting from category 0.
+            
+            0 bearish
+            1 bullish
+            2 neutral
+            
+            Classify the following tweet into one of these categories.
+            Return only the category number (0-2), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+SahandNZ/cryptonews-articles-with-price-momentum-labels:
+    null:
+        instruction:
+            You are a helpful assistant.
+            You are given a section from an article about cryptocurrency.
+            Return 1 if the news is likely to impact cryptocurrency prices, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+pacovaldez/stackoverflow-questions:
+    null:
+        instruction:
+            You are a helpful assistant. A Stack Overflow post is categoried using the SQL logic below.
+            
+            WHEN score >=100 OR favorite_count >= 100 OR view_count >=10000 THEN 0
+            WHEN score >=25 OR favorite_count >= 25 OR view_count >=2500 THEN 1
+            WHEN score >=10 OR favorite_count >= 10 OR view_count >=1000 THEN 2
+            ELSE 3
+            
+            Classify the following Stack Overflow post into one of these categories.
+            Return only the corresponding category number (0-3), without explanations.
+        user_input: body
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+masakhane/masakhanews:
+    swa:
+        instruction:
+            You are a helpful assistant.
+            Below is a list of categories for a news article written in one of 16 languages in Africa, formatted as "category description", starting from category 0.
+            
+            0 business
+            1 entertainment
+            2 health
+            3 politics
+            4 religion
+            5 sports
+            6 technology
+            
+            Categorize the following news article into one of these categories.
+            Return only the corresponding category number (0-6), without explanations.
+        user_input: headline_text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    yor:
+        instruction:
+            Below is a list of categories for a news article written in one of 16 languages in Africa, formatted as "category description", starting from category 0.
+            
+            0 business
+            1 entertainment
+            2 health
+            3 politics
+            4 religion
+            5 sports
+            6 technology
+            
+            Categorize the following news article into one of these categories.
+            Return only the corresponding category number (0-6), without explanations.
+        user_input: headline_text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    amh:
+        instruction:
+            Below is a list of categories for a news article written in one of 16 languages in Africa, formatted as "category description", starting from category 0.
+            
+            0 business
+            1 entertainment
+            2 health
+            3 politics
+            4 religion
+            5 sports
+            6 technology
+            
+            Categorize the following news article into one of these categories.
+            Return only the corresponding category number (0-6), without explanations.
+        user_input: headline_text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+community-datasets/disaster_response_messages:
+    null:
+        instruction:
+            You are a helpful assistant.
+            Classify the following text as 1 if the message contains a request related to a disaster, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input: message
+        assistant_output: request
+        task_type: classification
+        answer_len: short
+cardiffnlp/tweet_topic_single:
+    null:
+        instruction:
+            You are a helpful assistant. Below is a list of topics, formatted as "category description", starting from category 0.
+            
+            0 arts and culture
+            1 business and entrepreneurs
+            2 pop culture
+            3 daily life
+            4 sports and gaming
+            5 science and technology
+            
+            Classify the following tweet into one of these categories.
+            Return only the corresponding category number (0-5), without explanations.
+        split:
+            train: train_coling2022
+            test: test_coling2022
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+jpwahle/machine-paraphrase-dataset:
+    null:
+        instruction:
+            You are a helpful assistant.
+            Classify the following text as 1 if it is machine-paraphrased, and 0 if it is original human-written text.
+            Return only the digit (0 or 1), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+saier/unarXive_imrad_clf:
+    null:
+        instruction:
+            You are a helpful assistant. Below is a list of categories for a paragraph from a computer science paper, formatted as "category description".
+            
+            i intro
+            m methods
+            r results
+            d discussion
+            w related work
+            
+            Classify the following paragraph into one of these categories.
+            Return only the corresponding letter (i, m, r, d, w), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+facebook/anli:
+    null:
+        split:
+            train: train_r1
+            valid: dev_r1
+            test: test_r1
+        instruction:
+            You are a helpful assistant. Below is a list of categories that define sentence relationships, formatted as "category description", starting from category 0.
+            
+            0 entailment
+            1 neutral
+            2 contradiction
+            
+            You are given a pair of sentences formatted as "PREMISE - sentence1 [SEP] HYPOTHESIS - sentence2".
+            Classify their relationship into one of the categories above.
+            Return only the corresponding category number (0-2), without explanations.
+        user_input:
+            PREMISE: premise
+            HYPOTHESIS: hypothesis
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+google-research-datasets/circa:
+    null:
+        instruction:
+            You are a helpful assistant evaluating a question-and-answer dialogue. 
+            Below is a list of categories that characterize the intention of the answer to a question, formatted as "category description", starting from category 0.
+            
+            0 Yes
+            1 No
+            2 Neither yes or no
+            3 Conditional yes
+            4 Other, the question does not require a strict yes or no
+
+            You are given a dialogue formatted as "CONTEXT - sentence1 [SEP] QUESTION - sentence2 [SEP] ANSWER - sentence3".
+            Classify the answer (sentence3) into one of the categories above.
+            Return only the corresponding category number (0-4), without explanations.
+        user_input:
+            CONTEXT: context
+            QUESTION: question-X
+            ANSWER: answer-Y
+        assistant_output: goldstandard2
+        task_type: classification
+        answer_len: short
+cais/mmlu:
+    null:
+        subset:
+            abstract_algebra
+            anatomy
+            astronomy
+            business_ethics
+            clinical_knowledge
+            college_biology
+            college_chemistry
+            college_computer_science
+            college_mathematics
+            college_medicine
+            college_physics
+            computer_security
+            conceptual_physics
+            econometrics
+            electrical_engineering
+            elementary_mathematics
+            formal_logic
+            global_facts
+            high_school_biology
+            high_school_chemistry
+            high_school_computer_science
+            high_school_european_history
+            high_school_geography
+            high_school_government_and_politics
+            high_school_macroeconomics
+            high_school_mathematics
+            high_school_microeconomics
+            high_school_physics
+            high_school_psychology
+            high_school_us_history
+            high_school_world_history
+            human_aging
+            human_sexuality
+            international_law
+            jurisprudence
+            logical_fallacies
+            machine_learning
+            management
+            marketing
+            medical_genetics
+            miscellaneous
+            moral_disputes
+            moral_scenarios
+            nutrition
+            philosophy
+            prehistory
+            professional_accounting
+            professional_law
+            professional_medicine
+            professional_psychology
+            public_relations
+            security_studies
+            sociology
+            us_foreign_policy
+            virology
+        split:
+            train: test
+            valid: validation
+            test: dev
+        instruction:
+            You are a helpful assistant tasked with solving a multiple-choice questions in various domains.
+            You are given a multiple-choice question formatted as "SUBJECT - subject [SEP] QUESTION - question [SEP] CHOICES - choices".
+            Return only the index (starting from 0) of the correct choice, without explanations.
+        user_input:
+            SUBJECT: subject
+            QUESTION: question
+            CHOICES: choices
+        assistant_output: answer
+        task_type: classification
+        answer_len: short
+TIGER-Lab/MMLU-Pro:
+    null:
+        split:
+            train: test
+        instruction:
+            You are a helpful assistant tasked with solving a multiple-choice questions in various domains.
+            You are given a multiple-choice question formatted as "SUBJECT - subject [SEP] QUESTION - question [SEP] CHOICES - choices".
+            Return only the index (starting from 0) of the correct choice, without explanations.
+        user_input:
+            SUBJECT: category
+            QUESTION: question
+            CHOICES: options
+        assistant_output: answer_index
+        task_type: classification
+        answer_len: short
+deepmind/aqua_rat:
+    tokenized:
+        instruction:
+            You are a helpful assistant tasked with solving algebraic word problems.
+            You are given a multiple-choice question formatted as "QUESTION - question [SEP] CHOICES - choices".
+            Return only the letter (A, B, C, D, or E) corresponding to the correct choice, without explanations and without special character ")".
+        user_input:
+            QUESTION: question
+            CHOICES: options
+        assistant_output: correct
+        task_type: classification
+        answer_len: short
+tau/commonsense_qa:
+    null:
+        instruction:
+            You are a helpful assistant.
+            You are given a commonsense multiple-choice question formatted as "QUESTION - question [SEP] CHOICES - choices".
+            The choices are provided in JSON format, where "text" is a list of possible answers and "label" is a list of corresponding answer keys.
+            Return only the answer key (A, B, C, D, or E) corresponding to the correct answer, without explanations.
+        user_input:
+            QUESTION: question
+            CHOICES: choices
+        split:
+            train: train
+            valid: validation
+        assistant_output: answerKey
+        task_type: classification
+        answer_len: short
+nvidia/OpenMathInstruct-2:
+    null:
+        instruction:
+            You are a helpful assistant tasked with solving a math problem.
+            Return only the correct answer, without explanations. Use LaTeX formatting for answers that involve mathematical symbols or expressions (e.g., fractions, square roots, exponents).
+        split:
+            train: train_1M
+        user_input: problem
+        task_type: short_answer_question
+        assistant_output: expected_answer
+        answer_len: short
+allenai/sciq:
+    null:
+        instruction:
+            You are a helpful assistant tasked with solving science exam questions including Physics, Chemistry and Biology.
+            Return only the correct answer as a short text, without explanations.
+        user_input: question
+        assistant_output: correct_answer
+        task_type: short_answer_question
+        answer_len: short
+openlifescienceai/medmcqa:
+    null:
+        instruction:
+            You are a helpful assistant.
+            You are given a multiple-choice question covering healthcare and medical subjects, formatted as "QUESTION - question [SEP] 0 - option0 [SEP] 1 - option1 [SEP] 2 - option2 [SEP] 3 - option3".
+            Return only the digit (0,1,2, or 3) of the correct answer, without explanations.
+        user_input:
+            QUESTION: question
+            '0': opa
+            '1': opb
+            '2': opc
+            '3': opd
+        split:
+            train: train
+            valid: validation
+        assistant_output: cop
+        task_type: classification
+        answer_len: short
+allenai/qasc:
+    null:
+        instruction:
+            You are a helpful assistant.
+            You are given a grade school science multiple-choice question formatted as "QUESTION - question [SEP] FACT1 - fact1 [SEP] FACT2 - fact2 [SEP] CHOICES - choices".
+            The choices are provided in JSON format, where "text" is a list of possible answers and "label" is a list of corresponding answer keys.
+            Use the FACT1 and FACT2 to determine the correct answer.
+            Return only the corresponding letter (A, B, C, D, E, F, G, or H), without explanations.
+        user_input:
+            QUESTION: question
+            FACT1: fact1
+            FACT2: fact2
+            CHOICES: choices
+        split:
+            train: train
+            valid: validation
+        assistant_output: answerKey
+        task_type: classification
+        answer_len: short
+textmachinelab/quail:
+    null:
+        instruction:
+            You are a helpful assistant.
+            You are given a reading comprehension multiple-choice question formatted as "CONTEXT - context [SEP] QUESTION - question [SEP] CHOICES - choices"
+            Return only the index (0, 1, 2, or 3) of the correct choice, without explanations.
+        user_input:
+            CONTEXT: context
+            QUESTION: question
+            CHOICES: answers
+        assistant_output: correct_answer_id
+        task_type: classification
+        answer_len: short
+lmsys/toxic-chat:
+    toxicchat0124:
+        instruction:
+            You are a helpful assistant.
+            You are given a user input to a chatbot, formatted as "USER - user_input"
+            Classify the input as 1 if it contains a toxic content, such as violent, harrassing, hateful, harmful, or sexual statements.
+            Otherwise, classify it as 0.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            USER: user_input
+        assistant_output: toxicity
+        task_type: classification
+        answer_len: short
+ehovy/race:
+    high:
+        instruction:
+            You are a helpful assistant.
+            You are given a multiple-choice reading comprehension question based on an article, formatted as "ARTICLE - article [SEP] QUESTION - question [SEP] CHOICES - [choice1, choice2, choice3, choice4]".
+            Each choice is mapped to an answer key as follows.
+
+            A - choice1
+            B - choice2
+            C - choice3
+            D - choice4
+
+            Return only the letter (A, B, C, or D) corresponding to the correct choice, without explanations.
+        user_input:
+            ARTICLE: article
+            QUESTION: question
+            CHOICES: options
+        assistant_output: answer
+        task_type: classification
+        answer_len: short
+# From common benchmarks
+## SUPERGLUE
+super_glue:
+    boolq: # 9425 trai
+        instruction:
+            You are a helpful assistant.
+            Given a short passage and a yes-or-no question about the passage, return 1 for 'yes' or 0 for 'no'.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            PASSAGE: passage
+            QUESTION: question
+        split:
+            train: train
+            valid: validation
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    copa: # 400 train
+        instruction:
+            You are a helpful assistant.
+            Given a premise and two possible alternatives, determine which alternative is more plausible based on the specified relationship.
+            The question is formatted as "PREMISE - premise [SEP] RELATIONSHIP - cause or effect [SEP] ALTERNATIVE1 - alternative1 [SEP] ALTERNATIVE2 - alternative2"
+            Return 0 for alternative1 and 1 for alternative2.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            PREMISE: premise
+            RELATIONSHIP: question 
+            ALTERNATIVE1: choice1
+            ALTERNATIVE2: choice2
+        split:
+            train: train
+            valid: validation
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    rte: # 2490 train
+        instruction:
+            You are a helpful assistant.
+            Given a premise and a hypothesis, return 0 if the premise entails the hypothesis, and 1 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            PREMISE: premise
+            HYPOTHESIS: hypothesis
+        split:
+            train: train
+            valid: validation
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    wic: # 5428 train
+        instruction:
+            You are a helpful assistant.
+            You are given two sentences and a word that appears in both sentences, formatted as "WORD - word [SEP] SENTENCE1 - sentence1 [SEP] SENTENCE2 - sentence2".
+            Return 1 if the word is used in the same sense in both sentences, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            WORD: word
+            SENTENCE1: sentence1
+            SENTENCE2: sentence2
+        split:
+            train: train
+            valid: validation
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    wsc: # 554 train
+        instruction:
+            You are a helpful assistant.
+            You are given a text, along with a noun phrase and a pronoun that appear in the text, formatted as "TEXT - text [SEP] NOUN - noun phase [SEP] PRONOUN pronoun"
+            Return 1 if the pronoun refers to the noun phrase, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            TEXT: text
+            NOUN: span1_text
+            PRONOUN: span2_text
+        split:
+            train: train
+            valid: validation
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+## GLUE
+nyu-mll/glue:
+    cola: # 8551 train
+        instruction:
+            You are a helpful assistant.
+            Classify the given sentence as 1 if it is grammatically acceptable, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        split:
+            train: train
+            valid: validation
+        user_input: sentence
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    mnli: # 392702 train 
+        instruction:
+            You are a helpful assistant. 
+            You are given a premise and a hypothesis, formatted as "PREMISE - premise [SEP] HYPOTHESIS - hypothesis".
+            Classify the relationship between the premise and the hypothesis as follows.
+            
+            0 if the premise entails the hypothesis
+            1 if the relationship is neutral
+            2 if the premise contradicts the hypothesis
+            
+            Return only the digit (0, 1, or 2), without explanations.
+        user_input:
+            PREMISE: premise
+            HYPOTHESIS: hypothesis
+        split:
+            train: train
+            valid: validation_matched
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    mrpc: # 3668 train
+        instruction:
+            You are a helpful assistant.
+            You are given a sentence pair, formatted as "SENTENCE1 - sentence1 [SEP] SENTENCE2 - sentence2".
+            Return 1 if the two sentences are semantically equivalent, and 0 otherwise.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            SENTENCE1: sentence1
+            SENTENCE2: sentence2
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    qnli: # 105k train
+        instruction:
+            You are a helpful assistant.
+            You are given a context sentence and a question, formatted as "CONTEXT - context [SEP] QUESTION question".
+            Return 0 if the context contains the answer to the question, and 1 if it does not.
+            Return only the digit (0 or 1), without explanations.
+        split:
+            train: train
+            valid: validation
+        user_input:
+            CONTEXT: sentence
+            QUESTION: question
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    qqp: # 364k train
+        instruction:
+            You are a helpful assistant.
+            You are given a pair of questions, formatted as "QUESTION1 - question1 [SEP] QUESTION2 - question2". 
+            Return 1 if the two questions are semantically equivalent, and 0 if they are not.
+            Return only the digit (0 or 1), without explanations.
+        user_input:
+            QUESTION1: question1
+            QUESTION2: question2
+        split:
+            train: train
+            valid: validation
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+    sst2: # 67.3k train
+        instruction:
+            You are a helpful assistant.
+            Classify the following sentence as 0 if it expresses negative sentiment, and 1 if it expresses positive sentiment.
+            Return only the digit (0 or 1), without explanations.
+        split:
+            train: train
+            valid: validation
+        user_input: sentence
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+allenai/ai2_arc:
+    ARC-Easy:
+        instruction:
+            You are a helpful assistant specialized in solving a multiple-choice science questions.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] CHOICES - {choices}".
+            Return only the corresponding answer key (a single digit or a letter), without explanations.
+        user_input:
+            QUESTION: question
+            # the case where the choices need to be mapped to key - description format
+            CHOICES:
+                key_name: choices
+                fields: [label, text]
+                concat_symbol: ':'
+        assistant_output: answerKey
+        task_type: classification
+        answer_len: short
+    ARC-Challenge:
+        instruction:
+            You are a helpful assistant specialized in solving a multiple-choice science questions.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] CHOICES - {choices}".
+            Return only the corresponding answer key (a single digit or a letter), without explanations.
+        user_input:
+            QUESTION: question
+            CHOICES:
+                key_name: choices
+                fields: [label, text]
+                concat_symbol: ':'
+        assistant_output: answerKey
+        task_type: classification
+        answer_len: short
+nightingal3/fig-qa:
+    null:
+        instruction:
+            You are a helpful assistant.
+            You are given a phrase containing a metaphor along with two possible interpretations, formatted as "PHRASE - {phrase} [SEP] OPTION 0 - {option 0} [SEP] OPTION 1 - {option 1}".
+            Determine which option has the correct interpretation.
+            Return only the corresponding digit (0 or 1), without explanations.
+        split:
+            train: train
+            valid: validation
+        user_input:
+            PHRASE: startphrase
+            OPTION 0: ending1
+            OPTION 1: ending2
+        assistant_output: labels
+        task_type: classification
+        answer_len: short
+data/boolean_expressions.json:
+    boolean_expressions:
+        instruction:
+            You are a helpful assistant.
+            Complete the following logical statement with "True" or "False".
+            Respond only with "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/hyperbaton.json:
+    hyperbaton:
+        instruction:
+            You are a helpful assistant solving a multi-task problem.
+            Provide only the corresponding answer key ("a" or "b"), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/sports_understanding.json:
+    sports_understanding:
+        instruction:
+            You are a helpful assistant solving a sports-related classification task.
+            Evaluate the following statement to "1" if it is a valid statement in sports, otherwise return "0".
+            Respond only with digit (0 or 1), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/temporal_sequences.json:
+    temporal_sequences:
+        instruction:
+            You are a helpful assistant tasked with analyzing temporal relationship.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, 2 or 3), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/tracking_shuffled_objects.json:
+    tracking_shuffled_objects:
+        instruction:
+            You are a helpful assistant specializing in tracking shuffled objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, or 2), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/web_of_lies.json:
+    web_of_lies:
+        instruction:
+            You are a helpful assistant inferring logical facts from a given statement.
+            Return only "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/multistep_arithmetic.json:
+    multistep_arithmetic:
+        instruction:
+            You are a helpful assistant solving a multistep arithmetic task.
+            Return only the final numerical answer without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: math
+        answer_len: short
+data/reasoning_about_colored_objects.json:
+    reasoning_about_colored_objects:
+        instruction:
+            You are a helpful assistant reasoning about a list of objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key as a number, without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/formal_fallacies_syllogisms_negation.json:
+    formal_fallacies_syllogisms_negation:
+        instruction:
+            You are a helpful assistant distinguishing valid arguments from formal fallacies.
+            Return "1" if the given argument is deductively valid, and "0" if it is invalid.
+            Respond only with "0" or "1", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/mnist_ascii.json:
+    mnist_ascii:
+        instruction:
+            You are a helpful assistant.
+            Classify the following MNIST image converted to ascii.
+            Respond only with a digit (between 0 and 9), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/elementary_math_qa_question_only.json:
+    elementary_math_qa_question_only:
+        instruction:
+            You are a helpful assistant.
+            Solve the following multiple-choice mathematical word problem.
+            Return only the correct answer key (a digit between 0 and 4), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: clsasification
+        answer_len: short
+data/intersect_geometry.json:
+    intersect_geometry:
+        instruction:
+            You are a helpful assistant.
+            Find the number of intersection points between given shapes or lines based on the specified coordinates.
+            Return only the final numerical answer, without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/unit_conversion_si_conversion.json:
+    unit_conversion_si_conversion:
+        instruction:
+            You are a helpful assistant.
+            Solve the following multiple-choice unit converison problem within the SI system.
+            Return only the correct answer key (between 0 and 4), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+cardiffnlp/tweet_eval:
+    hate:
+        instruction:
+            You are a helpful assistant detecting hateful content in tweets.
+            A tweet is considered hateful if it contains aggressive attitude, threats, or targeted harassment against individuals or groups.
+            Return 1 if the tweet is hateful and 0 otherwise.
+            Respond only with digit (0 or 1), without explanations.
+        user_input: text
+        assistant_output: label
+        task_type: classification
+        answer_len: short
+# complaint data is downloaded as csv
+data/twitter_complaints.json:
+    twitter_complaints:
+        instruction:
+            You are a helpful assistant detecting customer complaints in tweets.
+            Return 1 if the following tweet contains a customer complaint, and return 0 otherwise.
+            Respond only with digit (0 or 1), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/polish_sequence_labeling.json:
+    polish_sequence_labeling:
+        instruction: |
+            You are a helpful assistant.
+            The following are sentences in Polish. Replace each word (or token) with one of the following labels based on its type.
+            
+            For Named Entities,            
+            'nam_adj': adjectives of proper names
+            'nam_eve': event names
+            'nam_fac': buildings
+            'nam_liv': living beings
+            'nam_loc': geographical locations
+            'nam_num': numeric names
+            'nam_org': organisations
+            'nam_pro': products
+            'nam_oth': other names
+            
+            For Temporal Expressions,
+            't3_date': denotes a point in a timeline
+            't3_time': refers to the time of a day
+            't3_duration': in contrast to date, has two points on a timeline associated with its start and endpoint
+            't3_set': is relating to more than one reoccurring instance of a time unit
+            
+            For Events,
+            'action': dynamic situation that occurs in time and space
+            'state': static situation
+            'reporting': agent informs or narrates about an event
+            'perception': physical perception of an event by an agent
+            'aspectual': dynamic situation which indicates the change of a phase of another event
+            'i_action': agent declares his will to perform an action
+            'i__state': agent refers to some possible event, which may or may not occur in the future
+            'dont_know': other events
+            
+            Use 'O' if a word or token does not belong to any of these categories.
+            
+            Return only the answer, without explanations or extra text.
+
+            For example,
+            'input': Kapral Gregory Stultz poni\u00f3s\u0142 \u015bmier\u0107 w ostrzale talibskich snajper\u00f3w
+            'your answer': nam_pro nam_liv nam_liv action action nam_pro action O O
+
+        user_input: input
+        assistant_output: target
+        task_type: entity_recognition
+        answer_len: long
+data/disfl_qa.json:
+    disfl_qa:
+        instruction:
+            You are a helpful assistant.
+            Given a disfluent question and a provided context, extract the correct answer span from the context.
+            If the question is unanswerable based on the context, return "unknown".
+            Return only the answer, without explanations or extra text.
+        user_input: input
+        user_input: input
+        assistant_output: target
+        task_type: question_answering
+        answer_len: long
+data/qa_wikidata.json:
+    qa_wikidata:
+        instruction:
+            You are a helpful assistant.
+            Answer the following simple question.
+            If there is more than one answer, return them as a comma separated list in alphabetical order (e.g. "answer1, answer2, answer3").
+            Return only the answer, without explanations or extra text.
+        user_input: input
+        assistant_output: target
+        task_type: question_answering
+        answer_len: long
+data/synthetic_random_kv.json:
+    synthetic_random_kv:
+        instruction:
+            You are a helpful assistant.
+            You are given a key that maps uniquely to a single value.
+            Return only the corresponding value for the key, without explanations or extra text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/synthetic_alphabet_mapping.json:
+    synthetic_alphabet_mapping:
+        instruction:
+            You are a helpful assistant.
+            You are given a list of integers ranging from 0 to 25, where each number maps to a lowercase English letter.
+            Return the decoded English word formed by these integers. Return only the answer, without explanations or extra text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/multitask_data_5.json:
+    multitask_data_5:
+        instruction:
+            You are a helpful assistant solving tasks from multiple domains.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/multitask_data_5_2.json:
+    multitask_data_5_2:
+        instruction:
+            You are a helpful assistant solving tasks from multiple domains.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+##### LABEL CORRUPTION EXPREIMENT #####
+data/mnist_ascii_6.json:
+    mnist_ascii_6:
+        instruction:
+            You are a helpful assistant.
+            Classify the following MNIST image converted to ascii.
+            Respond only with a digit (between 0 and 9), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/mnist_ascii_12.json:
+    mnist_ascii_12:
+        instruction:
+            You are a helpful assistant.
+            Classify the following MNIST image converted to ascii.
+            Respond only with a digit (between 0 and 9), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/mnist_ascii_25.json:
+    mnist_ascii_25:
+        instruction:
+            You are a helpful assistant.
+            Classify the following MNIST image converted to ascii.
+            Respond only with a digit (between 0 and 9), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/mnist_ascii_50.json:
+    mnist_ascii_50:
+        instruction:
+            You are a helpful assistant.
+            Classify the following MNIST image converted to ascii.
+            Respond only with a digit (between 0 and 9), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/reasoning_about_colored_objects_6.json:
+    reasoning_about_colored_objects_6:
+        instruction:
+            You are a helpful assistant reasoning about a list of objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key as a number, without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/reasoning_about_colored_objects_12.json:
+    reasoning_about_colored_objects_12:
+        instruction:
+            You are a helpful assistant reasoning about a list of objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key as a number, without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/reasoning_about_colored_objects_25.json:
+    reasoning_about_colored_objects_25:
+        instruction:
+            You are a helpful assistant reasoning about a list of objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key as a number, without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/reasoning_about_colored_objects_50.json:
+    reasoning_about_colored_objects_50:
+        instruction:
+            You are a helpful assistant reasoning about a list of objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key as a number, without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/web_of_lies_6.json:
+    web_of_lies_6:
+        instruction:
+            You are a helpful assistant inferring logical facts from a given statement.
+            Return only "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/web_of_lies_12.json:
+    web_of_lies_12:
+        instruction:
+            You are a helpful assistant inferring logical facts from a given statement.
+            Return only "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/web_of_lies_25.json:
+    web_of_lies_25:
+        instruction:
+            You are a helpful assistant inferring logical facts from a given statement.
+            Return only "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/web_of_lies_50.json:
+    web_of_lies_50:
+        instruction:
+            You are a helpful assistant inferring logical facts from a given statement.
+            Return only "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/boolean_expressions_6.json:
+    boolean_expressions_6:
+        instruction:
+            You are a helpful assistant.
+            Complete the following logical statement with "True" or "False".
+            Respond only with "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/boolean_expressions_12.json:
+    boolean_expressions_12:
+        instruction:
+            You are a helpful assistant.
+            Complete the following logical statement with "True" or "False".
+            Respond only with "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/boolean_expressions_25.json:
+    boolean_expressions_25:
+        instruction:
+            You are a helpful assistant.
+            Complete the following logical statement with "True" or "False".
+            Respond only with "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/boolean_expressions_50.json:
+    boolean_expressions_50:
+        instruction:
+            You are a helpful assistant.
+            Complete the following logical statement with "True" or "False".
+            Respond only with "True" or "False", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/tracking_shuffled_objects_6.json:
+    tracking_shuffled_objects_6:
+        instruction:
+            You are a helpful assistant specializing in tracking shuffled objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, or 2), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/tracking_shuffled_objects_12.json:
+    tracking_shuffled_objects_12:
+        instruction:
+            You are a helpful assistant specializing in tracking shuffled objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, or 2), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/tracking_shuffled_objects_25.json:
+    tracking_shuffled_objects_25:
+        instruction:
+            You are a helpful assistant specializing in tracking shuffled objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, or 2), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/tracking_shuffled_objects_50.json:
+    tracking_shuffled_objects_50:
+        instruction:
+            You are a helpful assistant specializing in tracking shuffled objects.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, or 2), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/formal_fallacies_syllogisms_negation_6.json:
+    formal_fallacies_syllogisms_negation_6:
+        instruction:
+            You are a helpful assistant distinguishing valid arguments from formal fallacies.
+            Return "1" if the given argument is deductively valid, and "0" if it is invalid.
+            Respond only with "0" or "1", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/formal_fallacies_syllogisms_negation_12.json:
+    formal_fallacies_syllogisms_negation_12:
+        instruction:
+            You are a helpful assistant distinguishing valid arguments from formal fallacies.
+            Return "1" if the given argument is deductively valid, and "0" if it is invalid.
+            Respond only with "0" or "1", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/formal_fallacies_syllogisms_negation_25.json:
+    formal_fallacies_syllogisms_negation_25:
+        instruction:
+            You are a helpful assistant distinguishing valid arguments from formal fallacies.
+            Return "1" if the given argument is deductively valid, and "0" if it is invalid.
+            Respond only with "0" or "1", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/formal_fallacies_syllogisms_negation_50.json:
+    formal_fallacies_syllogisms_negation_50:
+        instruction:
+            You are a helpful assistant distinguishing valid arguments from formal fallacies.
+            Return "1" if the given argument is deductively valid, and "0" if it is invalid.
+            Respond only with "0" or "1", without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/sports_understanding_6.json:
+    sports_understanding_6:
+        instruction:
+            You are a helpful assistant solving a sports-related classification task.
+            Evaluate the following statement to "1" if it is a valid statement in sports, otherwise return "0".
+            Respond only with digit (0 or 1), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/sports_understanding_12.json:
+    sports_understanding_12:
+        instruction:
+            You are a helpful assistant solving a sports-related classification task.
+            Evaluate the following statement to "1" if it is a valid statement in sports, otherwise return "0".
+            Respond only with digit (0 or 1), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/sports_understanding_25.json:
+    sports_understanding_25:
+        instruction:
+            You are a helpful assistant solving a sports-related classification task.
+            Evaluate the following statement to "1" if it is a valid statement in sports, otherwise return "0".
+            Respond only with digit (0 or 1), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/sports_understanding_50.json:
+    sports_understanding_50:
+        instruction:
+            You are a helpful assistant solving a sports-related classification task.
+            Evaluate the following statement to "1" if it is a valid statement in sports, otherwise return "0".
+            Respond only with digit (0 or 1), without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/hyperbaton_6.json:
+    hyperbaton_6:
+        instruction:
+            You are a helpful assistant solving a multi-task problem.
+            Provide only the corresponding answer key ("a" or "b"), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/hyperbaton_12.json:
+    hyperbaton_12:
+        instruction:
+            You are a helpful assistant solving a multi-task problem.
+            Provide only the corresponding answer key ("a" or "b"), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/hyperbaton_25.json:
+    hyperbaton_25:
+        instruction:
+            You are a helpful assistant solving a multi-task problem.
+            Provide only the corresponding answer key ("a" or "b"), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/hyperbaton_50.json:
+    hyperbaton_50:
+        instruction:
+            You are a helpful assistant solving a multi-task problem.
+            Provide only the corresponding answer key ("a" or "b"), without explanations or additional text.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/temporal_sequences_6.json:
+    temporal_sequences_6:
+        instruction:
+            You are a helpful assistant tasked with analyzing temporal relationship.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, 2 or 3), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/temporal_sequences_12.json:
+    temporal_sequences_12:
+        instruction:
+            You are a helpful assistant tasked with analyzing temporal relationship.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, 2 or 3), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/temporal_sequences_25.json:
+    temporal_sequences_25:
+        instruction:
+            You are a helpful assistant tasked with analyzing temporal relationship.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, 2 or 3), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/temporal_sequences_50.json:
+    temporal_sequences_50:
+        instruction:
+            You are a helpful assistant tasked with analyzing temporal relationship.
+            You are given a multiple-choice question formatted as "QUESTION - {question} [SEP] OPTIONS - {options}".
+            Return only the correct answer key (0, 1, 2 or 3), without explanations.
+        user_input:
+            QUESTION: input
+            OPTIONS: options
+        assistant_output: target
+        task_type: classification
+        answer_len: short
+data/object_counting_6.json:
+    object_counting_6:
+        instruction:
+            You are a helpful assistant. Analyze the following sentence and count the number of objects specified.
+            Return only digits in your answer, without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: long        
+data/object_counting_12.json:
+    object_counting_12:
+        instruction:
+            You are a helpful assistant. Analyze the following sentence and count the number of objects specified.
+            Return only digits in your answer, without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: long        
+data/object_counting_25.json:
+    object_counting_25:
+        instruction:
+            You are a helpful assistant. Analyze the following sentence and count the number of objects specified.
+            Return only digits in your answer, without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: long        
+data/object_counting_50.json:
+    object_counting_50:
+        instruction:
+            You are a helpful assistant. Analyze the following sentence and count the number of objects specified.
+            Return only digits in your answer, without explanations.
+        user_input: input
+        assistant_output: target
+        task_type: classification
+        answer_len: long
+data/coqa.json:
+    coqa:
+        instruction:
+            You are a helpful assistant answering questions about a passage.
+            Answer the question based on the passage and the conversation history.
+            Be concise and use the information from the passage.
+            If the passage does not contain the answer, return "unknown".
+        user_input: input_text
+        assistant_output: target
+        task_type: generation
+        answer_len: short
+data/squad_v2.json: # squad to only contain train split in json file
+    squad_v2:
+        instruction:
+            You are a helpful assistant answering questions based on a given passage.
+            Answer the question using only the information present in the passage.
+            If the passage does not contain the answer, respond with "unknown".
+        user_input: input
+        assistant_output: target
+        task_type: generation
+        answer_len: short

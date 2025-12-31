@@ -1,0 +1,17 @@
+{
+    "0": {
+        "exact_string_match_accuracy": 0.78
+    },
+    "50": {
+        "exact_string_match_accuracy": 0.98
+    },
+    "100": {
+        "exact_string_match_accuracy": 0.99
+    },
+    "200": {
+        "exact_string_match_accuracy": 1.0
+    },
+    "500": {
+        "exact_string_match_accuracy": 1.0
+    }
+}

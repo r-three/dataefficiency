@@ -1,0 +1,222 @@
+{
+    "arc_challenge": {
+        "score": null,
+        "method": null
+    },
+    "sports_understanding": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "copa": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "commonsense_qa": {
+        "score": 0.89,
+        "method": "accuracy"
+    },
+    "disaster_response_messages": {
+        "score": null,
+        "method": null
+    },
+    "anli": {
+        "score": 0.92,
+        "method": "accuracy"
+    },
+    "banking77": {
+        "score": 0.607,
+        "method": "accuracy"
+    },
+    "twitter_financial_news_sentiment": {
+        "score": null,
+        "method": null
+    },
+    "toxicchat0124": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "quail": {
+        "score": 0.6,
+        "method": "accuracy"
+    },
+    "intersect_geometry": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "temporal_sequences": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "openmathinstruct_2": {
+        "score": null,
+        "method": null
+    },
+    "twitter_complaints": {
+        "score": 0.731,
+        "method": "accuracy"
+    },
+    "polish_sequence_labeling": {
+        "score": "sequence_f1",
+        "method": "accuracy"
+    },
+    "tracking_shuffled_objects": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "sciq": {
+        "score": null,
+        "method": null
+    },
+    "tweet_eval": {
+        "score": null,
+        "method": null
+    },
+    "tokenized": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "arc_easy": {
+        "score": null,
+        "method": null
+    },
+    "elementary_math_qa_question_only": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "imbalanced": {
+        "score": null,
+        "method": null
+    },
+    "boolq": {
+        "score": 0.89,
+        "method": "accuracy"
+    },
+    "mnli": {
+        "score": 0.92,
+        "method": "accuracy"
+    },
+    "mrpc": {
+        "score": 0.808,
+        "method": "accuracy"
+    },
+    "qqp": {
+        "score": 0.804,
+        "method": "accuracy"
+    },
+    "cryptonews_articles_with_price_momentum_labels": {
+        "score": null,
+        "method": null
+    },
+    "qnli": {
+        "score": 0.912,
+        "method": "accuracy"
+    },
+    "medmcqa": {
+        "score": 0.9,
+        "method": "accuracy"
+    },
+    "high": {
+        "score": 0.85,
+        "method": "accuracy"
+    },
+    "cola": {
+        "score": 0.664,
+        "method": "accuracy"
+    },
+    "swa": {
+        "score": null,
+        "method": null
+    },
+    "ade_corpus_v2_classification": {
+        "score": 0.83,
+        "method": "accuracy"
+    },
+    "machine_paraphrase_dataset": {
+        "score": 0.784,
+        "method": "accuracy"
+    },
+    "main": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "unarxive_imrad_clf": {
+        "score": null,
+        "method": null
+    },
+    "overruling": {
+        "score": 0.937,
+        "method": "accuracy"
+    },
+    "wsc": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "reasoning_about_colored_objects": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "mmlu": {
+        "score": 0.898,
+        "method": "accuracy"
+    },
+    "multistep_arithmetic": {
+        "score": null,
+        "method": null
+    },
+    "sst2": {
+        "score": 0.978,
+        "method": "accuracy"
+    },
+    "typescript_chunks": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "object_counting": {
+        "score": 0.95,
+        "method": "accuracy"
+    },
+    "mnist_ascii": {
+        "score": 0.98,
+        "method": "accuracy"
+    },
+    "boolean_expressions": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "mmlu_pro": {
+        "score": null,
+        "method": null
+    },
+    "wic": {
+        "score": 0.8,
+        "method": "accuracy"
+    },
+    "rte": {
+        "score": 0.936,
+        "method": "accuracy"
+    },
+    "circa": {
+        "score": 0.923,
+        "method": "accuracy"
+    },
+    "fig_qa": {
+        "score": 0.9534,
+        "method": "accuracy"
+    },
+    "hyperbaton": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "web_of_lies": {
+        "score": 1.0,
+        "method": "accuracy"
+    },
+    "formal_fallacies_syllogisms_negation": {
+        "score": 0.8,
+        "method": "accuracy"
+    },
+    "unit_conversion_si_conversion": {
+        "score": 1.0,
+        "method": "accuracy"
+    }
+}

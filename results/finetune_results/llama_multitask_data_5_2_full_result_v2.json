@@ -1,0 +1,26 @@
+{
+    "0": {
+        "exact_string_match_accuracy": 0.3877777777777778
+    },
+    "500": {
+        "exact_string_match_accuracy": 0.5566666666666666
+    },
+    "1000": {
+        "exact_string_match_accuracy": 0.6855555555555556
+    },
+    "2500": {
+        "exact_string_match_accuracy": 0.7211111111111111
+    },
+    "50": {
+        "exact_string_match_accuracy": 0.39111111111111113
+    },
+    "100": {
+        "exact_string_match_accuracy": 0.3977777777777778
+    },
+    "200": {
+        "exact_string_match_accuracy": 0.43
+    },
+    "5000": {
+        "exact_string_match_accuracy": 0.8688888888888889
+    }
+}

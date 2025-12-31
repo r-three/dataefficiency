@@ -1,0 +1,32 @@
+{
+    "0": {
+        "accuracy": 0.25
+    },
+    "50": {
+        "accuracy": 1.0
+    },
+    "100": {
+        "accuracy": 1.0
+    },
+    "200": {
+        "accuracy": 0.99
+    },
+    "500": {
+        "accuracy": 1.0
+    },
+    "750": {
+        "accuracy": 0.92
+    },
+    "4": {
+        "exact_string_match_accuracy": 0.01
+    },
+    "8": {
+        "exact_string_match_accuracy": 0.0
+    },
+    "16": {
+        "exact_string_match_accuracy": 1.0
+    },
+    "32": {
+        "exact_string_match_accuracy": 1.0
+    }
+}

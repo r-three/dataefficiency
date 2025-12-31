@@ -1,0 +1,182 @@
+{
+    "circa": {
+        "max_acc": 0.8888240443536621,
+        "min_acc": 0.08491391887948643,
+        "extrapolation_auc": 0.7171576392311318,
+        "human_eval": 0.923
+    },
+    "boolean_expressions": {
+        "max_acc": 0.998,
+        "min_acc": 0.633,
+        "extrapolation_auc": 0.5253525622310304,
+        "human_eval": 1.0
+    },
+    "mnli": {
+        "max_acc": 0.8452,
+        "min_acc": 0.712,
+        "extrapolation_auc": 0.29067680992206796,
+        "human_eval": 0.92
+    },
+    "mrpc": {
+        "max_acc": 0.8701449275362318,
+        "min_acc": 0.7710144927536232,
+        "extrapolation_auc": 0.29607797518307294,
+        "human_eval": 0.8701449275362318
+    },
+    "qqp": {
+        "max_acc": 0.8576,
+        "min_acc": 0.796,
+        "extrapolation_auc": 0.283373936886815,
+        "human_eval": 0.8576
+    },
+    "reasoning_about_colored_objects": {
+        "max_acc": 0.9175,
+        "min_acc": 0.07875,
+        "extrapolation_auc": 0.4462122591582709,
+        "human_eval": 1.0
+    },
+    "hyperbaton": {
+        "max_acc": 0.9996,
+        "min_acc": 0.1628,
+        "extrapolation_auc": 0.6939539317272851,
+        "human_eval": 1.0
+    },
+    "anli": {
+        "max_acc": 0.661,
+        "min_acc": 0.405,
+        "extrapolation_auc": 0.25108128109530237,
+        "human_eval": 0.92
+    },
+    "fig_qa": {
+        "max_acc": 0.9411157024793388,
+        "min_acc": 0.7231404958677686,
+        "extrapolation_auc": 0.5328286402891166,
+        "human_eval": 0.9534
+    },
+    "sports_understanding": {
+        "max_acc": 0.9620390455531453,
+        "min_acc": 0.7429501084598699,
+        "extrapolation_auc": 0.4289674884545417,
+        "human_eval": 1.0
+    },
+    "banking77": {
+        "max_acc": 0.9133116883116883,
+        "min_acc": 0.05519480519480519,
+        "extrapolation_auc": 0.5480492303381137,
+        "human_eval": 0.9133116883116883
+    },
+    "formal_fallacies_syllogisms_negation": {
+        "max_acc": 0.5380281690140845,
+        "min_acc": 0.3647887323943662,
+        "extrapolation_auc": 0.24680973236899406,
+        "human_eval": 0.8
+    },
+    "tracking_shuffled_objects": {
+        "max_acc": 0.21866666666666668,
+        "min_acc": 0.0,
+        "extrapolation_auc": 0.16844888885563833,
+        "human_eval": 1.0
+    },
+    "overruling": {
+        "max_acc": 0.9833333333333333,
+        "min_acc": 0.8083333333333333,
+        "extrapolation_auc": 0.6419214575476953,
+        "human_eval": 0.9833333333333333
+    },
+    "toxicchat0124": {
+        "max_acc": 0.9714,
+        "min_acc": 0.9098,
+        "extrapolation_auc": 0.45096118830292475,
+        "human_eval": 1.0
+    },
+    "temporal_sequences": {
+        "max_acc": 0.99,
+        "min_acc": 0.0,
+        "extrapolation_auc": 0.7626420730201917,
+        "human_eval": 1.0
+    },
+    "boolq": {
+        "max_acc": 0.8695652173913043,
+        "min_acc": 0.8260869565217391,
+        "extrapolation_auc": 0.27732840305061207,
+        "human_eval": 0.89
+    },
+    "wic": {
+        "max_acc": 0.7955801104972375,
+        "min_acc": 0.6040515653775322,
+        "extrapolation_auc": 0.3200711382179202,
+        "human_eval": 0.8
+    },
+    "sst2": {
+        "max_acc": 0.9402,
+        "min_acc": 0.8782,
+        "extrapolation_auc": 0.37002710702567054,
+        "human_eval": 0.978
+    },
+    "web_of_lies": {
+        "max_acc": 0.9983221476510067,
+        "min_acc": 0.5436241610738255,
+        "extrapolation_auc": 0.3408934125940267,
+        "human_eval": 1.0
+    },
+    "ade_corpus_v2_classification": {
+        "max_acc": 0.939625850340136,
+        "min_acc": 0.4914965986394558,
+        "extrapolation_auc": 0.5679182865806154,
+        "human_eval": 0.939625850340136
+    },
+    "object_counting": {
+        "max_acc": 0.9044321329639889,
+        "min_acc": 0.4120498614958449,
+        "extrapolation_auc": 0.2834234466507097,
+        "human_eval": 0.95
+    },
+    "mnist_ascii": {
+        "max_acc": 0.9372,
+        "min_acc": 0.0926,
+        "extrapolation_auc": 0.442972468523096,
+        "human_eval": 0.98
+    },
+    "rte": {
+        "max_acc": 0.891566265060241,
+        "min_acc": 0.678714859437751,
+        "extrapolation_auc": 0.4797090523863275,
+        "human_eval": 0.936
+    },
+    "qnli": {
+        "max_acc": 0.907,
+        "min_acc": 0.779,
+        "extrapolation_auc": 0.5071315790317447,
+        "human_eval": 0.912
+    },
+    "quail": {
+        "max_acc": 0.7619512195121951,
+        "min_acc": 0.5434146341463415,
+        "extrapolation_auc": 0.4116799145868114,
+        "human_eval": 0.7619512195121951
+    },
+    "high": {
+        "max_acc": 0.7575757575757576,
+        "min_acc": 0.23013150371640936,
+        "extrapolation_auc": 0.46446249817816526,
+        "human_eval": 0.85
+    },
+    "medmcqa": {
+        "max_acc": 0.5398,
+        "min_acc": 0.16,
+        "extrapolation_auc": 0.35498257245081444,
+        "human_eval": 0.9
+    },
+    "mmlu": {
+        "max_acc": 0.5781818181818181,
+        "min_acc": 0.29818181818181816,
+        "extrapolation_auc": 0.31107024301248665,
+        "human_eval": 0.898
+    },
+    "commonsense_qa": {
+        "max_acc": 0.7241025641025641,
+        "min_acc": 0.2205128205128205,
+        "extrapolation_auc": 0.45960342891809125,
+        "human_eval": 0.89
+    }
+}
